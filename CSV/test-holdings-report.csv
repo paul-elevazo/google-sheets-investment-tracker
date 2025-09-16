@@ -1,0 +1,13 @@
+Account Name,Account Type,Account Classification,Account Number,Symbol,Exchange,MIC,Name,Security Type,Quantity,Position Direction,Market Price,Market Price Currency,Book Value (CAD),Book Value Currency (CAD),Book Value (Market),Book Value Currency (Market),Market Value,Market Value Currency,Market Unrealized Returns,Market Unrealized Returns Currency
+"Investment Account Alpha","Non-registered","Self-Directed","ACC001","SHOP.TO","TSX","XTSE","Shopify Inc.","EQUITY","20","LONG","65.25","CAD","1305.00","CAD","1305.00","CAD","1305.00","CAD","65.25","CAD"
+"Investment Account Alpha","Non-registered","Self-Directed","ACC001","BRK.B","NYSE","XNYS","Berkshire Hathaway Inc. (Class B)","EQUITY","3","LONG","500.0000","USD","1953.78","CAD","1358.91","USD","1500","USD","141.09","USD"
+"Retirement Portfolio","RRSP","Self-Directed","ACC002","BRK.B","NYSE","XNYS","Berkshire Hathaway Inc. (Class B)","EQUITY","1.5","LONG","500.0000","USD","976.89","CAD","679.46","USD","750","USD","70.54","USD"
+"Wealthsimple Personal","RRSP","Robo-Advisor","WS001","VEQT","TSX","XTSE","Vanguard All-Equity ETF","ETF","150","LONG","35.50","CAD","5325.00","CAD","5325.00","CAD","5325.00","CAD","225.75","CAD"
+"Wealthsimple Personal","RRSP","Robo-Advisor","WS001","VGRO","TSX","XTSE","Vanguard Growth ETF Portfolio","ETF","100","LONG","28.75","CAD","2875.00","CAD","2875.00","CAD","2875.00","CAD","115.00","CAD"
+"Wealthsimple Trade","Non-registered","Self-Directed","WS002","AAPL","NASDAQ","XNAS","Apple Inc.","EQUITY","10","LONG","175.25","USD","1752.50","USD","1752.50","USD","1752.50","USD","87.50","USD"
+"Wealthsimple Trade","Non-registered","Self-Directed","WS002","MSFT","NASDAQ","XNAS","Microsoft Corporation","EQUITY","5","LONG","340.80","USD","1704.00","USD","1704.00","USD","1704.00","USD","85.20","USD"
+"TFSA","TFSA","Self-Directed","ACC002","TSLA","NASDAQ","XNAS","Tesla Inc.","EQUITY","2","LONG","250.75","USD","501.50","USD","501.50","USD","501.50","USD","25.08","USD"
+"Emergency Fund","Savings","High-Interest","SAV001","CASH","CAD","CAD","Cash Position","CASH","5000","LONG","1.00","CAD","5000.00","CAD","5000.00","CAD","5000.00","CAD","0.00","CAD"
+"RRSP","RRSP","Self-Directed","RR001","XEQT","TSX","XTSE","iShares Core MSCI All Country World Index ETF","ETF","200","LONG","26.80","CAD","5360.00","CAD","5360.00","CAD","5360.00","CAD","268.00","CAD"
+
+"As of 2025-09-16 15:30 GMT-05:00"
