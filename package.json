@@ -1,0 +1,31 @@
+{
+  "name": "investment-tracker",
+  "version": "1.0.0",
+  "description": "Automated investment and budget tracker with Google Sheets integration",
+  "main": "scripts/update-sheets.js",
+  "scripts": {
+    "start": "node scripts/update-sheets.js",
+    "update": "node scripts/update-sheets.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.3.1",
+    "googleapis": "^128.0.0",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "investment",
+    "budget",
+    "tracker",
+    "google-sheets",
+    "wealthsimple",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
