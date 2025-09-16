@@ -100,7 +100,7 @@ class InvestmentTrackerUpdater {
           G: `=D${rowNumber}*F${rowNumber}`,            // Market Value = Quantity × Current Price - Column G
           H: `=D${rowNumber}*E${rowNumber}`,            // Cost Basis = Quantity × Avg Price - Column H
           // I: Gain/Loss comes from CSV, not formula
-          J: `=IF(H${rowNumber}=0,0,I${rowNumber}/H${rowNumber})`, // % Return = Gain/Loss ÷ Cost Basis - Column J
+          J: `=IF(H${rowNumber}=0,0,(I${rowNumber}/H${rowNumber})*100)`, // % Return = (Gain/Loss ÷ Cost Basis) × 100 - Column J
           K: `=TODAY()`                                 // Last Updated - Column K
         };
         
@@ -258,7 +258,7 @@ class InvestmentTrackerUpdater {
                 `=GOOGLEFINANCE("${financeSymbol}")`,    // F: Current Price
                 `=D${rowNumber}*F${rowNumber}`,          // G: Market Value
                 `=D${rowNumber}*E${rowNumber}`,          // H: Cost Basis
-                `=IF(H${rowNumber}=0,0,I${rowNumber}/H${rowNumber})`, // J: % Return
+                `=IF(H${rowNumber}=0,0,(I${rowNumber}/H${rowNumber})*100)`, // J: % Return
                 `=TODAY()`                               // K: Last Updated
               ];
               
